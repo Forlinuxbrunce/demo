@@ -63,10 +63,12 @@
 #     if i==(i//100)**3+(((i-i%10)/10)%10)**3+(i%10)**3:
 #         print(i)
 #
+
 # for i in range(100, 1000):
 #     j = str(i)
 #     if int(j[0]) ** 3 + int(j[1]) ** 3 + int(j[2]) ** 3 == i:
 #         print(i)
+#
 
 # score = int(input('输入分数：\n'))
 # if score>=90:
@@ -88,9 +90,14 @@
 # print ('%d 属于 %s' % (score, grade))
 
 # # 题目：输出指定格式的日期。
+#
 # import datetime
-# if __name__ == '_main_':
-#     print(datetime.date.today().strftime('%d/%m/%Y'))
+# print('当前年月日：',datetime.date.today())
 
-import datetime
-print('当前年月日：',datetime.date.today())
+# 关键字
+# import keyword
+# keyword.kwlist
+# print(keyword.kwlist)
+
+input("\n\n按下enter键退出")
+

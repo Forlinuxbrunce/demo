@@ -33,9 +33,9 @@
 # print(a.rstrip())
 # print(a)
 #永久性删除空白格
-# b = "xhj  "
-# b = b.rstrip()
-# print(b)
-# print(b)
+b = "xhj  "
+b = b.rstrip()
+print(b)
+print(b)
 
 
